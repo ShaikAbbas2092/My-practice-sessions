@@ -23,7 +23,8 @@ pipeline {
       steps {
         echo " 11 LPA "
       }
-      stage(' Experience') {
+      
+    stage('Experience') {
         steps {
           echo "3+ years of Experience"
         }
