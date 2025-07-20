@@ -19,16 +19,16 @@ pipeline {
       }
     }
     
-    stage( 'Package') {
+    stage('Package') {
       steps {
         echo " 11 LPA "
       }
-      
+    }
     stage('Experience') {
-        steps {
-          echo "3+ years of Experience"
+      steps {
+        echo "3+ years of Experience"
         }
       }
-    }
+    
   }
 }
