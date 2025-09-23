@@ -62,3 +62,6 @@ docker run -d -p 3000:3000 abbastaher/jenkins-demo-app:latest
 2. Jenkins detects changes and runs pipeline.  
 3. Monitor builds and logs in Jenkins UI.
 
+   <img width="1883" height="731" alt="Screenshot 2025-09-23 144448" src="https://github.com/user-attachments/assets/ac42d9ec-1b2a-47a7-903b-a1950f934c42" />
+
+
