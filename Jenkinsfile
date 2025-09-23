@@ -1,32 +1,32 @@
 pipeline {
   agent any
   stages {
-    stage('Overview') {
+    stage('Checkout') {
       steps {
         echo "I'm an Ethusiastic DevOps Engineer desired to secure work-life balance Job in hyderabad location"
       }
     }
     
-    stage('Name') {
+    stage('build') {
       steps {
-        echo " Shaik Abbas "
+        echo " Build stage for elevate labs "
       }
     }
     
-    stage('Designation') {
+    stage('Test') {
       steps {
-        echo " Cloud DevOps Engineer "
+        echo " Testing stage for Depoyment "
       }
     }
     
-    stage('Package') {
+    stage('Deploy') {
       steps {
-        echo " 11 LPA "
+        echo " Dev env Deployment "
       }
     }
-    stage('Experience') {
+    stage('Monitor') {
       steps {
-        echo "3+ years of Experience"
+        echo "pipeline monitor through stages"
         }
       }
     
